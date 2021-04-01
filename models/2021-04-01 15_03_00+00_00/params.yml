@@ -1,0 +1,3 @@
+regressor:
+  max_depth: 33
+  n_estimators: 100
