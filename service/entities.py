@@ -81,9 +81,9 @@ class WeatherSitInt(ConstrainedInt):
 
 class ModelInput(BaseModel):
     yr: int
-    mnth: MnthInt
+    #mnth: MnthInt
     hr: HrInt
-    season: int
+    #season: int
     holiday: int
     weekday: WorkDayInt
     workingday: WorkingDaytInt
@@ -91,6 +91,8 @@ class ModelInput(BaseModel):
     temp: float
     hum: float
     windspeed: float
+    last_week_same_hour: float
+    last_day_same_hour : float
 
 
 #class YearInteger(ConstrainedInt):

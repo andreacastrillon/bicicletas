@@ -57,7 +57,7 @@ pip install -r ./service/requirements.txt
 python .\modelling\app.py train .\config.yml
 
 #Evaluar el modelo
-python .\modelling\app.py eval .\config.yml "2021-04-01 04_36_00+00_00"
+python .\modelling\app.py eval .\config.yml "2021-04-01 19_58_00+00_00"
 
 
 #Registrar variables (Editor de registro)

@@ -4,7 +4,7 @@ hyperparams:
     max_depth: 33
 
 data:
-  filepath: dataset.csv
+  filepath: dataset_new.csv
 
 metrics:
   - name: mean absolute error

@@ -19,8 +19,8 @@ def get_dataset(reader: DatasetReader, splits: t.Iterable[SplitName]):
 
     #df = clean_dataset(df)
 
-    feature_columns = ["yr", "mnth", "hr", "season", "holiday", "weekday", "workingday", "weathersit", "temp", "hum",
-                       "windspeed"]
+    feature_columns = ["yr", "hr", "holiday", "weekday", "workingday", "weathersit", "temp", "hum",
+                       "windspeed", "last_week_same_hour","last_day_same_hour"]
     target_column = "cnt"
     y = df[target_column]
     X = df[feature_columns]
